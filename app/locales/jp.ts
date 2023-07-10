@@ -199,6 +199,9 @@ const jp: PartialLocaleType = {
     Add: "追加",
   },
   Plugin: { Name: "プラグイン" },
+  NewMask: {
+    Name: "New Role",
+  },
   Mask: {
     Name: "キャラクタープリセット",
     Page: {

@@ -228,6 +228,9 @@ ${builtin} مدمجة، ${custom} تم تعريفها من قبل المستخد
   Plugin: {
     Name: "المكوّن الإضافي",
   },
+  NewMask: {
+    Name: "New Role",
+  },
   Mask: {
     Name: "الأقنعة",
     Page: {

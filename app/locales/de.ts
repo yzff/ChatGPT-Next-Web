@@ -187,6 +187,9 @@ const de: PartialLocaleType = {
   Plugin: {
     Name: "Plugin",
   },
+  NewMask: {
+    Name: "New Role",
+  },
   Mask: {
     Name: "Mask",
     Page: {

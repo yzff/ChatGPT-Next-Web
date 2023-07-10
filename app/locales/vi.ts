@@ -181,6 +181,9 @@ const vi: PartialLocaleType = {
   Plugin: {
     Name: "Plugin",
   },
+  NewMask: {
+    Name: "New Role",
+  },
   Mask: {
     Name: "Mẫu",
     Page: {

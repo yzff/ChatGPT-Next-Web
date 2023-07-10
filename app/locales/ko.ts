@@ -180,6 +180,9 @@ const ko: PartialLocaleType = {
   Plugin: {
     Name: "플러그인",
   },
+  NewMask: {
+    Name: "New Role",
+  },
   Mask: {
     Name: "마스크",
     Page: {

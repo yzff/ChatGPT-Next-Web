@@ -187,6 +187,9 @@ const fr: PartialLocaleType = {
   Plugin: {
     Name: "Extension",
   },
+  NewMask: {
+    Name: "New Role",
+  },
   Mask: {
     Name: "Masque",
     Page: {
