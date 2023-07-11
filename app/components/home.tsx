@@ -99,7 +99,8 @@ const useHasHydrated = () => {
 const loadAsyncGoogleFont = () => {
   const linkEl = document.createElement("link");
   const proxyFontUrl = "/google-fonts";
-  const remoteFontUrl = "https://fonts.googleapis.com";
+  //const remoteFontUrl = "https://fonts.cat.net";
+  const remoteFontUrl = "https://fonts.font.im/";
   const googleFontUrl =
     getClientConfig()?.buildMode === "export" ? remoteFontUrl : proxyFontUrl;
   linkEl.rel = "stylesheet";

@@ -6,6 +6,7 @@ export const CN_MASKS: BuiltinMask[] = [
     name: "以文搜图",
     context: [
       {
+        id: "text-to-pic-0",
         role: "user",
         content:
           "从现在开始，如果你想发送一张照片，请使用Markdown格式但不要使用反引号或代码块，并使用Unsplash API（https://source.unsplash.com/1600x900/?<PUT YOUR QUERY HERE>）。我们将扮演在微信中聊天的两个老朋友。偶尔，你应该发送一张照片。你将表现得好像是你拍摄了你要发送的照片，不要提到Unsplash。回复“Hello！”以示确认。以下是我的第一条消息：嗨！",
