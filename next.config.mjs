@@ -65,7 +65,8 @@ if (mode !== "export") {
       },
       {
         source: "/google-fonts/:path*",
-        destination: "https://fonts.googleapis.com/:path*",
+        // destination: "https://fonts.cat.net/:path*",
+        destination: "https://fonts.font.im/:path*",
       },
       {
         source: "/sharegpt",
