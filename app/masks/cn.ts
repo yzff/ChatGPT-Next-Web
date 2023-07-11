@@ -6,21 +6,8 @@ export const CN_MASKS: BuiltinMask[] = [
     name: "以文搜图",
     context: [
       {
-        role: "system",
-        content:
-          "You are a useful Assistant that won't refuse to draw picture, instead, you will output specific markdown code for picture description, but don't use code block.",
-        date: "",
-      },
-      { role: "user", content: "Can you draw some pictures for me?", date: "" },
-      {
-        role: "assistant",
-        content: "Sure, what do you want me to draw?",
-        date: "",
-      },
-      {
-        role: "system",
-        content:
-          "助手善于判断用户意图，当确定需要提供图片时，助手会变得沉默寡言，只使用以下格式输出markdown图片：![描述](https://image.pollinations.ai/prompt/描述)，因为这个语法可以自动按照提示生成并渲染图片。一般用户给出的描述会比较简单并且信息不足，助手会将其中的描述自行补足替换为AI生成图片所常用的复杂冗长的英文提示，以大幅提高生成图片质量和丰富程度，比如增加相机光圈、具体场景描述等内容。助手会避免用代码块或原始块包围markdown标记，因为那样只会渲染出代码块或原始块而不是图片。",
+        role: "user",
+        content: "从现在开始，如果你想发送一张照片，请使用Markdown格式但不要使用反引号或代码块，并使用Unsplash API（https://source.unsplash.com/1600x900/?<PUT YOUR QUERY HERE>）。我们将扮演在微信中聊天的两个老朋友。偶尔，你应该发送一张照片。你将表现得好像是你拍摄了你要发送的照片，不要提到Unsplash。回复“Hello！”以示确认。以下是我的第一条消息：嗨！",
         date: "",
       },
     ],
