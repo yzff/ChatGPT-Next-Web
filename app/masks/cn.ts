@@ -132,6 +132,32 @@ export const CN_MASKS: BuiltinMask[] = [
     createdAt: 1688899480534,
   },
   {
+    avatar: "1f4d5",
+    name: "小红书风格",
+    context: [
+      {
+        id: "red-book-1-0",
+        role: "user",
+        content:
+          "你的任务是将我给出的文字按小红书博主文章的风格，做一下排版，并插入表情符号来增加趣味和互动。同时在文章结尾插入小红书的#标签。我要排版的文字是：",
+        date: "",
+      },
+    ],
+    modelConfig: {
+      model: "gpt-3.5-turbo",
+      temperature: 1,
+      max_tokens: 2000,
+      presence_penalty: 0,
+      frequency_penalty: 0,
+      sendMemory: false,
+      historyMessageCount: 0,
+      compressMessageLengthThreshold: 1000,
+    },
+    lang: "cn",
+    builtin: true,
+    createdAt: 1688899480535,
+  },
+  {
     avatar: "270d-fe0f",
     name: "互联网写手",
     context: [

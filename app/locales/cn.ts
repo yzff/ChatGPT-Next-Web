@@ -273,7 +273,7 @@ const cn = {
     Revert: "恢复上下文",
   },
   Plugin: {
-    Name: "插件",
+    Name: "空白聊天",
   },
   NewMask: {
     Name: "新建角色",
