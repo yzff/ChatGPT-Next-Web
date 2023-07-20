@@ -139,7 +139,10 @@ export function SideBar(props: { className?: string }) {
           icon={<PluginIcon />}
           text={shouldNarrow ? undefined : Locale.Plugin.Name}
           className={styles["sidebar-bar-button"]}
-          onClick={() => navigate(Path.NewChat)}
+          onClick={() => {
+            chatStore.newSession();
+            navigate(Path.Chat);
+          }}
           shadow
         />
       </div>
